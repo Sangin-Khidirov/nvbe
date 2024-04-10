@@ -1,0 +1,7 @@
+.container {
+    @apply flex fixed top-0 left-0 z-[1000] h-[100px] bg-white;
+}
+
+.wrapper {
+    @apply relative pl-[140px] pb-[23px];
+}

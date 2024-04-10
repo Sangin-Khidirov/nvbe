@@ -1,0 +1,12 @@
+.container {
+    @apply sticky top-0 h-[100px] z-[100] w-full bg-[#ffffff];
+    position: -webkit-sticky;
+}
+
+.wrapper {
+    @apply z-10 flex flex-row items-center gap-[34px] gap-y-[42px] pl-[444px] font-bold;
+}
+
+.hr {
+    @apply h-[100px] w-[1px] bg-gray;
+}

@@ -1,0 +1,7 @@
+.container{
+    @apply relative z-[80] overflow-hidden 
+}
+
+.cards{
+    @apply flex gap-5 overflow-x-auto pl-[140px]
+}

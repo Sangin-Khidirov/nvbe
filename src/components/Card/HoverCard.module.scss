@@ -1,0 +1,12 @@
+.container {
+    @apply absolute z-[80] flex h-[472px] w-[352px] min-w-[352px] cursor-pointer flex-col rounded-[16px] bg-[#3593FFE5] px-[40px] py-[16px];
+}
+
+.title {
+    @apply flex text-[55px] font-bold text-white;
+}
+
+.description {
+    @apply flex pt-[25px] text-[16px] font-semibold text-white;
+   
+}

@@ -1,0 +1,23 @@
+.container {
+    @apply relative z-50 flex h-[472px] min-w-[352px] w-[352px] flex-col justify-between rounded-[16px] bg-white px-[30px] py-[23px];
+}
+
+.description {
+    @apply bottom-[44px] left-0 mt-auto flex text-2xl font-bold text-[#2E2E2E];
+}
+
+.footer {
+    @apply flex justify-between items-end mt-auto;
+}
+
+.details {
+    @apply flex cursor-pointer font-bold text-[#D32A3B];
+}
+
+.num {
+    @apply items-center font-bold;
+}
+
+.img {
+    @apply h-[285px];
+}
